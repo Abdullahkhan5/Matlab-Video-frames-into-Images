@@ -1,5 +1,5 @@
 %Reading the file and creating images frame by frame
-v = VideoReader('C:\Users\DELL\Documents\MATLAB\BabarAzam.mp4'); 
+v = VideoReader('YOUR FILE LOCATION'); 
 
 for img = 1:v.NumberOfFrames;
     filename=strcat('frame',num2str(img),'.jpg');
